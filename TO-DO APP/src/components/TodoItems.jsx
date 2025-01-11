@@ -1,9 +1,8 @@
 import React from 'react'
 import tick from "../assets/tick.png"
-import not_tick from "../assets/not_tick.png"
 import delete_item from "../assets/delete.png"
 
-const TodoItems = ({text, id, isComplete, deleteTodo, toogle}) => {
+const TodoItems = ({text, id, deleteTodo, toogle}) => {
   return (
     <div className='flex items-center my-3 gap-2'>
 

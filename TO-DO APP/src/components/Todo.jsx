@@ -1,6 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Todo_icon from "../assets/todo_icon.png"
-import TodoItems from './Todoitems'
+import TodoItems from './TodoItems'
+
+
+
+
+
 
 const Todo = () => {
 
